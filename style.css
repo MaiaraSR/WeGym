@@ -51,13 +51,7 @@ main{
     margin: 0px auto;
     text-align: center;
 }
-.banner{
-    height: 100vh;
-    background-image: url(Imagens/forcaeditado.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 #informacoes{
     padding: 30px;
