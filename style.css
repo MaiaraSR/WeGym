@@ -20,30 +20,32 @@ body{
 
 header{
     position: fixed;
-    z-index: 1;
     width: 100%;
     background-color: white;
 }
 
 .topo{
-    position: relative;
-    max-width: 1024px;
     margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
 }
-.logo{
+
+.img-logo{
     width: 100px;
 }
 
 nav{
-    position: absolute;
-    top: 45%;
-    right: 0px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav a{
     text-decoration: none;
     color: var(--cor2);
-    margin-left: 15px;
 }
 
 main{
@@ -52,11 +54,18 @@ main{
     text-align: center;
 }
 
+.banner{
+    max-height: 728px;
+}
+.banner img{
+    width: 100%;
+}
 
 #informacoes{
     padding: 30px;
     background-color: var(--cor3);
 }
+
 h2{
     color: #fff;
     font-size: 34px;
